@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telugu & English News Switcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>swapna....🗞️❤️</h1>
+    <h1>📰 News Viewer (తెలుగు / English)</h1>
+    
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search news...">
+      <select id="languageSelect">
+        <option value="te">Telugu</option>
+        <option value="en">English</option>
+      </select>
+      <button onclick="fetchNews()">Search</button>
+    </div>
+
+    <div id="newsList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
